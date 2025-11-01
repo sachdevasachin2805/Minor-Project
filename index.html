@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AI Quiz Generator</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="container">
+    <h1>AI-Powered Custom Quiz Generator</h1>
+    <input id="topic" type="text" placeholder="Enter Topic (e.g. Python Programming)">
+    <button onclick="generateQuiz()">Generate Quiz</button>
+    <pre id="output"></pre>
+  </div>
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
