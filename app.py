@@ -1,7 +1,7 @@
 from flask import Flask, request, jsonify, render_template
 import google.generativeai as genai
 
-app = Flask(_name_)
+app = Flask(_ _name_ _)
 
 # 🔑 Add your Gemini API key here
 genai.configure(api_key="AIzaSyAPp3F6V3NskZvOHTkUaxUXGRq3mM5F1Ns")
@@ -21,3 +21,4 @@ def generate_quiz():
 if _name_ == '_main_':
 
     app.run(debug=True)
+
